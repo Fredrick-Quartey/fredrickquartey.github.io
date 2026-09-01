@@ -93,7 +93,7 @@ const projects = [
     category: 'website',
     categoryLabel: 'Business Website · Ghana',
     desc: 'Premium agency website with animated sections, service showcase, and client inquiry system.',
-    image: 'assets/myown.jpg',
+    image: 'myown.jpg',
     url: 'https://nettexsolution.com/',
     linkLabel: 'Visit Site'
   },
@@ -103,7 +103,7 @@ const projects = [
     category: 'ecommerce',
     categoryLabel: 'Catering · Ghana',
     desc: 'Full-featured e-commerce platform with mobile money integration and real-time inventory.',
-    image: 'assets/project1.jpg',
+    image: 'project1.jpg',
     url: 'https://nettexsolution.com/',
     linkLabel: 'Visit Site'
   },
