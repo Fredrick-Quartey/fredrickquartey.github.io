@@ -113,7 +113,7 @@ const projects = [
     category: 'webapp',
     categoryLabel: 'Web App · Ghana',
     desc: 'Analytics dashboard with real-time data, role-based access, and automated reporting.',
-    image: 'assets/project4.jpg',
+    image: 'project4.jpg',
     url: 'https://houseofvictorygh.web.app/',
     linkLabel: 'View App'
   },
@@ -123,7 +123,7 @@ const projects = [
     category: 'website',
     categoryLabel: 'Multiwebsite · Ghana',
     desc: 'Corporate website with multilingual support, team profiles, and service booking system.',
-    image: 'assets/project2.jpg',
+    image: 'project2.jpg',
     url: 'https://todallah.com/',
     linkLabel: 'Visit Site'
   },
@@ -133,7 +133,7 @@ const projects = [
     category: 'mobile',
     categoryLabel: 'Catering · Ghana',
     desc: 'Food & package delivery app with GPS tracking, driver management, and payment gateway.',
-    image: 'assets/project6.png',
+    image: 'project6.png',
     url: 'https://nettexsolution.com/',
     linkLabel: 'View App'
   },
