@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fredrick Quartey | Full Stack Developer & CEO of Nettex IT Solutions</title>
+  <meta name="description" content="Fredrick Quartey – Full Stack Web Developer, Graphic Designer & CEO of Nettex IT Solutions. Based in Accra, Ghana.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="header-inner">
+    <a href="#hero" class="logo-wrap">
+     
+      <div class="logo-name">Portfolio<span>.</span></div>
+    </a>
+    <nav id="nav">
+      <button class="nav-close" id="navClose" aria-label="Close menu"><i class="fas fa-times"></i></button>
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#github">GitHub</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button id="themeToggle" aria-label="Toggle theme" title="Switch theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge"><span></span> Available for Projects</div>
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Fredrick <span class="highlight">Quartey</span></h1>
+      <p class="hero-typed-line">I'm a <span class="typed-text" id="typedOutput"></span><span class="typed-cursor">|</span></p>
+      <p class="hero-desc">Full Stack Web Developer, Graphic Designer & Digital Strategist from Accra, Ghana. CEO of Nettex IT Solutions - building premium digital experiences for startups and businesses.</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num-row">
+            <span class="stat-num counter-num" data-target="4">0</span><span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Years Exp.</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num-row">
+            <span class="stat-num counter-num" data-target="47">0</span><span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num-row">
+            <span class="stat-num counter-num" data-target="52">0</span><span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">Clients</div>
+        </div>
+      </div>
+      <div class="hero-buttons">
+        <a href="#work" class="btn-primary-grad"><i class="fas fa-eye"></i> View My Work</a>
+        <a href="https://wa.me/233594850688" target="_blank" class="btn-outline-grad"><i class="fab fa-whatsapp"></i> Chat with Me</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="orbit-ring"></div>
+      <div class="orbit-ring"></div>
+      <div class="profile-img-outer">
+        <div class="shimmer"></div>
+        <img src="assets/pic21.jpg" alt="Fredrick Quartey" class="profile-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="profile-img-placeholder" style="display:none;">
+          <i class="fas fa-user-tie"></i>
+        </div>
+      </div>
+      <div class="float-tag"><i class="fas fa-code"></i> Full Stack Dev</div>
+      <div class="float-tag"><i class="fas fa-shield-alt"></i> Cybersecurity</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal-left">
+        <div class="img-shimmer-wrap">
+          <img src="assets/MYPIC1.png" alt="Fredrick Quartey" class="about-img"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="about-img-placeholder" style="display:none;"><i class="fas fa-user-tie"></i></div>
+        </div>
+        <div class="about-exp-badge">
+          <div class="num-row">
+            <div class="num counter-num" data-target="4">0</div>
+            <div class="num">+</div>
+          </div>
+          <div class="label">Years of Excellence</div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-title">Digital Builder. <span class="accent-underline">Bold Thinker.</span></h2>
+        <p style="color:var(--muted);font-size:0.93rem;margin-bottom:18px;line-height:1.8;">
+          I'm a passionate Full Stack Web Developer, Graphic Designer, and Digital Strategist from Accra, Ghana.
+          Founder & CEO of <strong style="color:var(--text);">Nettex IT Solutions</strong> - a premium digital services agency helping startups, individuals, and businesses thrive in the digital world through deep market research, robust strategy, creativity, and technical expertise.
+        </p>
+        <div class="about-info-grid">
+          <div class="info-item"><div class="info-label">Name</div><div class="info-value">Fredrick Quartey</div></div>
+          <div class="info-item"><div class="info-label">Email</div><div class="info-value">quarteyfredrick41@gmail.com</div></div>
+          <div class="info-item"><div class="info-label">Phone</div><div class="info-value">+233 594 850 688</div></div>
+          <div class="info-item"><div class="info-label">Location</div><div class="info-value">Darkuman, Accra – Ghana</div></div>
+          <div class="info-item"><div class="info-label">Company</div><div class="info-value">Nettex IT Solutions</div></div>
+          <div class="info-item"><div class="info-label">Role</div><div class="info-value">CEO & Lead Developer</div></div>
+        </div>
+        <div class="skills-wrap" style="margin-top:20px;">
+          <p style="font-size:0.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;font-weight:600;">Tech Stack</p>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+            <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+            <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+            <span class="skill-tag"><i class="fas fa-fire"></i> Firebase</span>
+            <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+            <span class="skill-tag"><i class="fas fa-shield-alt"></i> Cybersecurity Basics</span>
+            <span class="skill-tag"><i class="fab fa-figma"></i> UI/UX Design</span>
+            <span class="skill-tag"><i class="fab fa-android"></i> System Dev</span>
+            <span class="skill-tag"><i class="fab fa-google"></i> Google Business</span>
+          </div>
+        </div>
+        <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="https://wa.me/233594850688" target="_blank" class="btn-primary-grad" style="font-size:.83rem;padding:10px 20px;">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="mailto:nettexsolution@gmail.com" class="btn-outline-grad" style="font-size:.83rem;padding:10px 20px;">
+            <i class="fas fa-envelope"></i> Email Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">What I Do</div>
+      <h2 class="section-title">Services I Offer</h2>
+      <p class="section-subtitle">From concept to deployment - premium digital solutions tailored to your goals.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal-left" style="transition-delay:0s">
+        <div class="service-icon"><i class="fas fa-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Custom websites built with modern tech stacks - fast, responsive, and scalable for any business size.</p>
+      </div>
+      <div class="service-card reveal-zoom" style="transition-delay:.07s">
+        <div class="service-icon"><i class="fas fa-palette"></i></div>
+        <h3>Graphic Design & Brand Identity</h3>
+        <p>Bold brand identities, logos, social media graphics, and marketing materials that make you unforgettable.</p>
+      </div>
+      <div class="service-card reveal-drop" style="transition-delay:.14s">
+        <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+        <h3>E-Commerce Development</h3>
+        <p>Full-featured online stores with payment integration, inventory management, and seamless user experience.</p>
+      </div>
+      <div class="service-card reveal-zoom" style="transition-delay:.21s">
+        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile App Development</h3>
+        <p>iOS & Android app development with intuitive interfaces and robust backends for modern businesses.</p>
+      </div>
+      <div class="service-card reveal-left" style="transition-delay:.28s">
+        <div class="service-icon"><i class="fab fa-instagram"></i></div>
+        <h3>Social Media Management</h3>
+        <p>Content creation, scheduling, and community management to grow your brand across all social platforms.</p>
+      </div>
+      <div class="service-card reveal-drop" style="transition-delay:.35s">
+        <div class="service-icon"><i class="fab fa-google"></i></div>
+        <h3>Google Business Profile</h3>
+        <p>Create and optimize your Google Business Profile to attract local customers and improve search visibility.</p>
+      </div>
+      <div class="service-card reveal-zoom" style="transition-delay:.42s">
+        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+        <h3>Cybersecurity Consulting</h3>
+        <p>Digital security audits, vulnerability assessments, and cybersecurity tips to protect your digital assets.</p>
+      </div>
+      <div class="service-card reveal-left" style="transition-delay:.49s">
+        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Digital Strategy & Research</h3>
+        <p>Deep market research, digital strategy, and growth consulting to help your business thrive online.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Milestones</div>
+      <h2 class="section-title">My Achievements</h2>
+      <p class="section-subtitle">Numbers that reflect years of dedication and client trust across Ghana and beyond.</p>
+    </div>
+    <div class="ach-grid">
+      <div class="ach-card reveal-left">
+        <div class="ach-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+        <div>
+          <div class="ach-num"><span class="counter-num" data-target="47">0</span>+</div>
+          <div class="ach-label">Projects Completed</div>
+        </div>
+      </div>
+      <div class="ach-card reveal-right">
+        <div class="ach-icon-wrap"><i class="fas fa-users"></i></div>
+        <div>
+          <div class="ach-num"><span class="counter-num" data-target="52">0</span>+</div>
+          <div class="ach-label">Clients Served</div>
+        </div>
+      </div>
+      <div class="ach-card reveal-left" style="transition-delay:.1s">
+        <div class="ach-icon-wrap"><i class="fas fa-shield-alt"></i></div>
+        <div>
+          <div class="ach-num"><span class="counter-num" data-target="15">0</span>+</div>
+          <div class="ach-label">Security Audits</div>
+        </div>
+      </div>
+      <div class="ach-card reveal-right" style="transition-delay:.1s">
+        <div class="ach-icon-wrap"><i class="fas fa-calendar-alt"></i></div>
+        <div>
+          <div class="ach-num"><span class="counter-num" data-target="4">0</span>+</div>
+          <div class="ach-label">Years Experience</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="work">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Portfolio</div>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">Websites, web apps, and digital platforms built for clients across Ghana and beyond.</p>
+    </div>
+    <div class="projects-filter reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="website">Websites</button>
+      <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+      <button class="filter-btn" data-filter="webapp">Web Apps</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+    </div>
+    <div class="projects-grid" id="projectsGrid">
+      <!-- Project cards are rendered by JavaScript from the `projects` data object below -->
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT PREVIEW MODAL -->
+<div class="project-modal-overlay" id="projectModalOverlay">
+  <div class="project-modal" role="dialog" aria-modal="true" aria-labelledby="projectModalTitle">
+    <button class="project-modal-close" id="projectModalClose" aria-label="Close preview"><i class="fas fa-times"></i></button>
+    <div class="project-modal-title" id="projectModalTitle"></div>
+    <div class="project-modal-imgwrap" id="projectModalImgWrap"></div>
+    <div class="project-modal-actions">
+      <button class="btn-primary-grad" id="projectModalOpenLink"><i class="fas fa-arrow-up-right-from-square"></i> Open Link</button>
+      <button class="btn-outline-grad" id="projectModalCloseBtn">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- GITHUB PROFILE -->
+<section id="github">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Open Source</div>
+      <h2 class="section-title">GitHub <span class="accent-underline">Profile</span></h2>
+      <p class="section-subtitle">Check out my repositories, contributions, and open-source work on GitHub.</p>
+    </div>
+    <div class="github-profile-card reveal-zoom">
+      <div class="gh-avatar-wrap">
+        <div class="gh-avatar">
+          <img src="assets/MYPIC1.png" alt="Fredrick Quartey"
+            onerror="this.style.display='none';this.parentElement.innerHTML='<i class=\'fas fa-user-tie\'></i>'">
+        </div>
+        <div class="gh-username">@<span>fredrickquartey</span></div>
+        <a href="https://github.com/fredrickquartey" target="_blank" class="gh-follow-btn">
+          <i class="fab fa-github"></i> Follow on GitHub
+        </a>
+        <div style="display:flex;flex-direction:column;gap:8px;width:100%;margin-top:8px;">
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;">
+            <span style="color:var(--muted);">Followers</span>
+            <span style="color:var(--text);font-weight:600;">128</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;">
+            <span style="color:var(--muted);">Following</span>
+            <span style="color:var(--text);font-weight:600;">74</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:0.78rem;">
+            <span style="color:var(--muted);">Public Repos</span>
+            <span style="color:var(--text);font-weight:600;">32</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="gh-info">
+        <div class="gh-name">Fredrick Quartey</div>
+        <div class="gh-bio">Full Stack Developer · Digital Strategist · CEO @NettexITSolutions - Building premium digital products from Accra, Ghana 🇬🇭. Passionate about clean code, bold design, and cybersecurity.</div>
+        <div class="gh-meta">
+          <div class="gh-meta-item"><i class="fas fa-map-marker-alt"></i> Darkuman, Accra – Ghana</div>
+          <div class="gh-meta-item"><i class="fas fa-building"></i> Nettex IT Solutions</div>
+          <div class="gh-meta-item"><i class="fas fa-globe"></i> nettexitsolutions.com</div>
+          <div class="gh-meta-item"><i class="fas fa-calendar-alt"></i> Member since 2022</div>
+        </div>
+
+        <!-- Stats -->
+        <div class="gh-stats">
+          <div class="gh-stat-card">
+            <div class="gh-stat-num">32</div>
+            <div class="gh-stat-label">Repositories</div>
+          </div>
+          <div class="gh-stat-card">
+            <div class="gh-stat-num">840</div>
+            <div class="gh-stat-label">Contributions</div>
+          </div>
+          <div class="gh-stat-card">
+            <div class="gh-stat-num">56</div>
+            <div class="gh-stat-label">Stars Earned</div>
+          </div>
+        </div>
+
+        <!-- Language bars -->
+        <div>
+          <div class="gh-contribution-label" style="margin-bottom:10px;">Top Languages</div>
+          <div class="gh-langs">
+            <div class="gh-lang-bar-wrap">
+              <div class="gh-lang-bar-label"><span>JavaScript</span><span>42%</span></div>
+              <div class="gh-lang-bar"><div class="gh-lang-bar-fill" style="width:42%;background:var(--grad);"></div></div>
+            </div>
+            <div class="gh-lang-bar-wrap">
+              <div class="gh-lang-bar-label"><span>PHP</span><span>24%</span></div>
+              <div class="gh-lang-bar"><div class="gh-lang-bar-fill" style="width:24%;background:linear-gradient(135deg,#777bb3,#5c6a9a);"></div></div>
+            </div>
+            <div class="gh-lang-bar-wrap">
+              <div class="gh-lang-bar-label"><span>CSS / HTML</span><span>20%</span></div>
+              <div class="gh-lang-bar"><div class="gh-lang-bar-fill" style="width:20%;background:linear-gradient(135deg,#e44d26,#f16529);"></div></div>
+            </div>
+            <div class="gh-lang-bar-wrap">
+              <div class="gh-lang-bar-label"><span>Python</span><span>14%</span></div>
+              <div class="gh-lang-bar"><div class="gh-lang-bar-fill" style="width:14%;background:linear-gradient(135deg,#3572A5,#4ea0d6);"></div></div>
+            </div>
+          </div>
+        </div>
+ <!-- Contribution graph -->
+        <div>
+          <div class="gh-contribution-label" style="margin-bottom:10px;">Contribution Activity</div>
+          <div class="gh-contribution-grid" id="contribGrid"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-header reveal">
+      <div class="section-tag">Journey</div>
+      <h2 class="section-title">Education & Experience</h2>
+    </div>
+    <div class="exp-grid">
+      <div class="reveal-left">
+        <h3 style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin-bottom:26px;color:var(--muted);">Education</h3>
+        <div class="timeline">
+          <div class="timeline-item reveal-zoom">
+            <div class="timeline-date">2021 – Present</div>
+            <div class="timeline-title">Bsc in Information Technology</div>
+            <div class="timeline-company">Ghana Communication Technology University, Tesano, Accra-Ghana</div>
+            <div class="timeline-desc">Pursuing Information Technology with a focus on software development, cybersecurity, and digital systems. Active student and tech ethusiast.</div>
+          </div>
+          <div class="timeline-item reveal-zoom" style="transition-delay:.1s">
+            <div class="timeline-date">Certified</div>
+            <div class="timeline-title">Cybersecurity Fundamentals</div>
+            <div class="timeline-company">Cisco Network Online Certification</div>
+            <div class="timeline-desc">Completed certification in cybersecurity fundamentals covering network security, ethical hacking, and digital threat management.</div>
+          </div>
+          <div class="timeline-item reveal-zoom" style="transition-delay:.2s">
+            <div class="timeline-date">Certified</div>
+            <div class="timeline-title">Full Stack Web Development</div>
+            <div class="timeline-company">Self-Directed & Bootcamp Training</div>
+            <div class="timeline-desc">Intensive full-stack training covering front-end, back-end, APIs, databases, and deployment pipelines.</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <h3 style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin-bottom:26px;color:var(--muted);">Experience</h3>
+        <div class="timeline">
+          <div class="timeline-item reveal-zoom">
+            <div class="timeline-date">2026 – Present</div>
+            <div class="timeline-title">CEO & Founder</div>
+            <div class="timeline-company">Nettex IT Solutions, Accra – Ghana</div>
+            <div class="timeline-desc">Founded Nettex IT Solutions - delivering premium web development, graphic design, digital strategy, cybersecurity consulting, and social media management to 52+ clients.</div>
+          </div>
+          <div class="timeline-item reveal-zoom" style="transition-delay:.1s">
+            <div class="timeline-date">Six months (2025)</div>
+            <div class="timeline-title">Customer Associate Engineer Intern - DLP Africa</div>
+            <div class="timeline-company">Independent – Ghana</div>
+            <div class="timeline-desc">Built 47+ projects for SMEs, startups, NGOs, and entrepreneurs spanning real estate, e-commerce, hospitality, construction, and corporate sectors.</div>
+          </div>
+          <div class="timeline-item reveal-zoom" style="transition-delay:.2s">
+            <div class="timeline-date">2023 – Present</div>
+            <div class="timeline-title">Digital Strategy Consultant</div>
+            <div class="timeline-company">Nettex IT Solutions</div>
+            <div class="timeline-desc">Providing market research, digital strategy, and growth consulting combining technical expertise with creative direction for businesses across Ghana.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Get In Touch</div>
+      <h2 class="section-title">Let's Build Something <span class="accent-underline">Amazing</span></h2>
+      <p class="section-subtitle">Ready to start a project? Send a message and I'll respond within 24 hours.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div>
+            <div class="contact-detail-label">Location</div>
+            <div class="contact-detail-value">Darkuman, Accra – Ghana</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <div class="contact-detail-label">Phone / WhatsApp</div>
+            <div class="contact-detail-value">+233 594 850 688</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-value">nettexsolution@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-building"></i></div>
+          <div>
+            <div class="contact-detail-label">Company</div>
+            <div class="contact-detail-value">Nettex IT Solutions</div>
+          </div>
+        </div>
+        <div class="contact-social-row">
+          <a href="#" target="_blank" class="social-btn" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/fredrickquartey" target="_blank" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank" class="social-btn" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://wa.me/233594850688" target="_blank" class="social-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">First Name</label>
+            <input type="text" class="form-input" placeholder="John" id="fname">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Last Name</label>
+            <input type="text" class="form-input" placeholder="Doe" id="lname">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="john@example.com" id="cemail">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone Number</label>
+          <input type="tel" class="form-input" placeholder="+233 ..." id="cphone">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Service Interested In</label>
+          <select class="form-input" id="cservice">
+            <option value="">Select a service...</option>
+            <option>Web Development</option>
+            <option>Graphic Design & Brand Identity</option>
+            <option>E-Commerce Development</option>
+            <option>Mobile App Development</option>
+            <option>Social Media Management</option>
+            <option>Google Business Profile Management</option>
+            <option>Cybersecurity Consulting</option>
+            <option>Digital Strategy & Research</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-input" placeholder="Tell me about your project..." id="cmessage"></textarea>
+        </div>
+        <button class="submit-btn" onclick="submitContact()">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div class="form-status" id="formStatus"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Nettex IT Solutions</div>
+    <p class="footer-copy">© <span id="year"></span> Fredrick Quartey. All Rights Reserved. | Powered by <a href="#" target="_blank">Nettex IT Solutions</a></p>
+  </div>
+</footer>
+
+<a href="#hero" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
