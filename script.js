@@ -115,7 +115,7 @@ const projects = [
     desc: 'Analytics dashboard with real-time data, role-based access, and automated reporting.',
     image: 'project4.JPG',
     url: 'https://houseofvictorygh.web.app/',
-    linkLabel: 'View App'
+    linkLabel: 'View WebApp'
   },
   {
     id: 'corporate-hub',
@@ -154,7 +154,7 @@ const projectsGrid = document.getElementById('projectsGrid');
 function fallbackThumbHTML() {
   return `<div class="project-thumb-placeholder">
       <i class="fas fa-image"></i>
-      <span>Project Preview Unavailable</span>
+      <span>Project Pre Unavailable</span>
     </div>`;
 }
 
@@ -163,10 +163,10 @@ function renderProjects() {
     const delay = (i * 0.06).toFixed(2);
     return `
       <div class="project-card reveal-zoom" data-cat="${p.category}" data-project-id="${p.id}" style="transition-delay:${delay}s">
-        <div class="project-thumb" data-project-id="${p.id}" role="button" tabindex="0" aria-label="Preview ${p.title}">
+        <div class="project-thumb" data-project-id="${p.id}" role="button" tabindex="0" aria-label="Pre ${p.title}">
           <img src="${p.image}" alt="${p.title}" loading="lazy"
             onerror="handleProjectImgError(this)">
-          <div class="thumb-overlay"><span class="thumb-hint"><i class="fas fa-expand"></i> Preview</span></div>
+          <div class="thumb-overlay"><span class="thumb-hint"><i class="fas fa-expand"></i> Pre</span></div>
         </div>
         <div class="project-body">
           <div class="project-category">${p.categoryLabel}</div>
@@ -209,7 +209,7 @@ function openProjectModal(id) {
   activeProject = project;
 
   projectModalTitle.textContent = project.title;
-  projectModalImgWrap.innerHTML = `<img src="${project.image}" alt="${project.title}" onerror="this.parentElement.innerHTML = '<div class=\\'modal-fallback\\'><i class=\\'fas fa-image\\'></i><span>Project Preview Unavailable</span></div>';">`;
+  projectModalImgWrap.innerHTML = `<img src="${project.image}" alt="${project.title}" onerror="this.parentElement.innerHTML = '<div class=\\'modal-fallback\\'><i class=\\'fas fa-image\\'></i><span>Project Pre Unavailable</span></div>';">`;
 
   if (project.url) {
     projectModalOpenLink.style.display = 'inline-flex';
