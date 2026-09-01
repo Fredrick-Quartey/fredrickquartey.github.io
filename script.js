@@ -93,7 +93,7 @@ const projects = [
     category: 'website',
     categoryLabel: 'Business Website · Ghana',
     desc: 'Premium agency website with animated sections, service showcase, and client inquiry system.',
-    image: 'myown.jpg',
+    image: 'myown.JPG',
     url: 'https://nettexsolution.com/',
     linkLabel: 'Visit Site'
   },
@@ -103,7 +103,7 @@ const projects = [
     category: 'ecommerce',
     categoryLabel: 'Catering · Ghana',
     desc: 'Full-featured e-commerce platform with mobile money integration and real-time inventory.',
-    image: 'project1.jpg',
+    image: 'project1.JPG',
     url: 'https://nettexsolution.com/',
     linkLabel: 'Visit Site'
   },
@@ -113,7 +113,7 @@ const projects = [
     category: 'webapp',
     categoryLabel: 'Web App · Ghana',
     desc: 'Analytics dashboard with real-time data, role-based access, and automated reporting.',
-    image: 'project4.jpg',
+    image: 'project4.JPG',
     url: 'https://houseofvictorygh.web.app/',
     linkLabel: 'View App'
   },
@@ -123,7 +123,7 @@ const projects = [
     category: 'website',
     categoryLabel: 'Multiwebsite · Ghana',
     desc: 'Corporate website with multilingual support, team profiles, and service booking system.',
-    image: 'project2.jpg',
+    image: 'project2.JPG',
     url: 'https://todallah.com/',
     linkLabel: 'Visit Site'
   },
@@ -143,7 +143,7 @@ const projects = [
     category: 'branding',
     categoryLabel: 'Branding · Ghana',
     desc: 'Full brand identity: logo, color palette, typography, business card, and brand guide.',
-    image: 'project5.jpg',
+    image: 'project5.JPG',
     url: null,
     linkLabel: 'View Work'
   }
