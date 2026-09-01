@@ -143,7 +143,7 @@ const projects = [
     category: 'branding',
     categoryLabel: 'Branding · Ghana',
     desc: 'Full brand identity: logo, color palette, typography, business card, and brand guide.',
-    image: 'assets/project5.jpg',
+    image: 'project5.jpg',
     url: null,
     linkLabel: 'View Work'
   }
